@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://KoshJR.github.io/LearnLingo/",
   "dependencies": {
+    "@reduxjs/toolkit": "^2.2.6",
     "axios": "^1.7.2",
     "formik": "^2.4.6",
     "nanoid": "^5.0.7",

@@ -1,15 +1,18 @@
+import { Layout } from 'components/Layout/Layout';
 import { FavoritesPage } from 'pages/FavoritesPage';
 import { HomePage } from 'pages/HomePage';
-import { WelcomePage } from 'pages/WelcomePage';
+import { TeachersPage } from 'pages/TeachersPage';
 import { Routes, Route, Navigate } from 'react-router-dom';
 
 export const App = () => {
   return (
-    <Routes>
-      <Route path="/home" element={<HomePage />} />
-      <Route path="welcome" element={<WelcomePage />} />
-      <Route path="/favorites" element={<FavoritesPage />} />
-      <Route path="*" element={<Navigate to="/" />} />
-    </Routes>
+    <Layout>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/teachers" element={<TeachersPage />} />
+        <Route path="/favorites" element={<FavoritesPage />} />
+        <Route path="*" element={<Navigate to="/" />} />
+      </Routes>
+    </Layout>
   );
 };

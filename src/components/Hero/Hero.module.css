@@ -1,0 +1,11 @@
+.heroWrapper {
+    display: flex;
+    gap: 24px;
+}
+
+.titleWrapper {
+    background-color: var(--primary-color-grey);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+}

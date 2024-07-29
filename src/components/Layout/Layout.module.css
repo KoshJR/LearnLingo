@@ -1,0 +1,51 @@
+.container {
+  margin: 0 auto;
+  max-width: 100%;
+  width: 1440px;
+}
+
+.navbar {
+  margin-top: 20px;
+  padding-left: 128px;
+  padding-right: 128px;
+  display: flex;
+  align-items: center;
+}
+
+.userAuth {
+  display: flex;
+  align-items: center;
+  margin-left: 270px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+.flag {
+}
+
+.logoText {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.loginBtn {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  color: #121417;
+  font-size: 16px;
+  font-weight: 700;
+  margin-right: 16px;
+}
+
+.registerBtn {
+  background-color: #121417;
+  width: 166px;
+  height: 48px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+  border-radius: 12px;
+}

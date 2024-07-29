@@ -1,13 +1,14 @@
-
+import { Hero } from 'components/Hero/Hero';
+import { Statistics } from 'components/Hero/Statistics';
+import css from "./Pages.module.css"
 
 const HomePage = () => {
   return (
-    <div>
-      HomePage
-      <button onClick={event => console.log(event)}>Click me!</button>
-
+    <div className={css.hero}>
+      <Hero />
+      <Statistics />
     </div>
   );
-}
+};
 
-export {HomePage}
+export { HomePage };

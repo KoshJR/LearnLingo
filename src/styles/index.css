@@ -3,6 +3,8 @@
   --secondary-color-yellow: #fbe9ba;
   --primary-color-green: #9fbaae;
   --secondary-color-green: #cbded3;
+  --primary-color-black: #121417;
+  --primary-color-grey: #F8F8F8;
 }
 
 *,
@@ -14,8 +16,8 @@ svg,
 }
 
 body {
-  font-family: "Roboto", sans-serif;
-  line-height: 1.5;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.25;
   margin: 0 auto;
   font-size: 45px;
   background-color: var(--primary-color-white);

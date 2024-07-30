@@ -4,15 +4,15 @@ const Hero = () => {
   return (
     <div className={css.heroWrapper}>
       <div className={css.titleWrapper}>
-        <h2>
+        <h2 className={css.title}>
           Unlock your potential with the best <span>language</span> tutors
         </h2>
-        <p>
+        <p className={css.text}>
           Embark on an Exciting Language Journey with Expert Language Tutors:
           Elevate your language proficiency to new heights by connecting with
           highly qualified and experienced tutors.
-              </p>
-              <button>Get started</button>
+         </p>
+        <button className={css.startBtn}>Get started</button>
       </div>
       <div className={css.heroImg}>
         <img src="" alt="" width={568} height={530}/>

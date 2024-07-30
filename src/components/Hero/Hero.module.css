@@ -1,11 +1,40 @@
 .heroWrapper {
-    display: flex;
-    gap: 24px;
+  display: flex;
+  gap: 24px;
 }
 
 .titleWrapper {
-    background-color: var(--primary-color-grey);
-    border-radius: 30px;
-    display: flex;
-    flex-direction: column;
+  background-color: var(--primary-color-grey);
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  color: var(--primary-color-black);
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 1.15;
+  padding: 98px 108px 0 64px;
+}
+
+.text {
+  font-size: 16px;
+  line-height: 1.37;
+  padding: 32px 162px 0 64px;
+}
+
+.startBtn {
+  background-color: var(--primary-color-yellow);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.55;
+  color: var(--primary-color-black);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 267px;
+  height: 60px;
+  border-radius: 12px;
+  margin: 64px 390px 98px 64px;
 }

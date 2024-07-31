@@ -1,5 +1,5 @@
 import { Hero } from 'components/Hero/Hero';
-import { Statistics } from 'components/Hero/Statistics';
+import { Statistics } from 'components/Statistics/Statistics';
 import css from "./Pages.module.css"
 
 const HomePage = () => {

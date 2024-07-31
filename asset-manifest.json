@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/LearnLingo/static/css/main.8a1409a8.css",
-    "main.js": "/LearnLingo/static/js/main.7235dc62.js",
+    "main.css": "/LearnLingo/static/css/main.ddc7448c.css",
+    "main.js": "/LearnLingo/static/js/main.37b6eda7.js",
     "static/media/Roboto-Medium.ttf": "/LearnLingo/static/media/Roboto-Medium.7c8d04cd831df3033c8a.ttf",
     "static/media/Roboto-Regular.ttf": "/LearnLingo/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
     "index.html": "/LearnLingo/index.html",
-    "main.8a1409a8.css.map": "/LearnLingo/static/css/main.8a1409a8.css.map",
-    "main.7235dc62.js.map": "/LearnLingo/static/js/main.7235dc62.js.map"
+    "main.ddc7448c.css.map": "/LearnLingo/static/css/main.ddc7448c.css.map",
+    "main.37b6eda7.js.map": "/LearnLingo/static/js/main.37b6eda7.js.map"
   },
   "entrypoints": [
-    "static/css/main.8a1409a8.css",
-    "static/js/main.7235dc62.js"
+    "static/css/main.ddc7448c.css",
+    "static/js/main.37b6eda7.js"
   ]
 }

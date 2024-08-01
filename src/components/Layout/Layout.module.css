@@ -49,3 +49,7 @@
   color: #ffffff;
   border-radius: 12px;
 }
+
+.registerBtn:hover, .registerBtn:active {
+  background-color: var(--primary-color-yellow);
+}

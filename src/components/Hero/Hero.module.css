@@ -38,3 +38,7 @@
   border-radius: 12px;
   margin: 64px 390px 98px 64px;
 }
+
+.startBtn:hover, .startBtn:active {
+  background-color: #FFDC86;
+}

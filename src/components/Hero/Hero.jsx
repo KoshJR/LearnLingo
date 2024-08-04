@@ -11,11 +11,16 @@ const Hero = () => {
           Embark on an Exciting Language Journey with Expert Language Tutors:
           Elevate your language proficiency to new heights by connecting with
           highly qualified and experienced tutors.
-         </p>
+        </p>
         <button className={css.startBtn}>Get started</button>
       </div>
       <div className={css.heroImg}>
-        <img src="" alt="" width={568} height={530}/>
+        <img
+          src=""
+          alt=""
+          width={568}
+          height={530}
+        />
       </div>
     </div>
   );
